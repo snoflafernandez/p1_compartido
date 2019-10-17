@@ -13,5 +13,5 @@ en un enlace que pone "web" en el primer párrafo. A continuación hacemos click
 "Descárgalo ahora". Es entonces cuando se listan las versiones de Pandora para todos los sistemas operativos posibles.  
 Descargamos la versión para Windows.  
 
-Una vez tenemos el instalador, instalamos indicando que queremos ser agentes y no servidor. En el proceso de instalación es  
-cuando se configura el agente, ya que te solicita la IP del Servidor Pandora, el nombre del grupo, etc.
+Una vez tenemos el instalador, instalamos indicando que queremos ser agentes y no servidor. En el proceso de instalación  
+es cuando se configura el agente, ya que te solicita la IP del Servidor Pandora, el nombre del grupo, etc.
