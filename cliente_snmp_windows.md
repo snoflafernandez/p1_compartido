@@ -7,11 +7,14 @@ hasta el apartado llamado "Características". Buscamos una característica llama
 esa característica como las que incluye. Una vez lo hemos marcado hacemos click en "Instalar". Pasados unos minutos  
 finaliza la instalación.  
 ### Agente Pandora  
-Para descargar el agente de Pandora nos dirgimos a la web oficial de Pandora(https://pandorafms.com/es/). Una vez  
-dentro, en el menú entramos en el apartado descargar. No dirigirá a una página nueva, en la que debemos hacer click  
-en un enlace que pone "web" en el primer párrafo. A continuación hacemos click en la zona baja de la página donde pone  
-"Descárgalo ahora". Es entonces cuando se listan las versiones de Pandora para todos los sistemas operativos posibles.  
-Descargamos la versión para Windows.  
-
-Una vez tenemos el instalador, instalamos indicando que queremos ser agentes y no servidor. En el proceso de instalación  
-es cuando se configura el agente, ya que te solicita la IP del Servidor Pandora, el nombre del grupo, etc.
+Para activar el agente SNMP y permitir que el servidor pueda monitorizarnos debemos abrir el editor de directivas de  
+grupo local. Para ello accedemos a "Ejecutar" con la combinación de teclas "Windows+R". Dentro introducimos gpedit.msc.  
+Una vez dentro del editor nos dirigimos a plantillas administrativas y posteriormente a Red. Entre todas las cxarpetas  
+que nos aparecen entramos en "SNMP". Nos aparecen 3 posibilidades de configuración. La primera de ellas, llamada  
+"Especificar Comunidades" es aquella que sirve para determinar a qué grupo de Agentes vamos a pertenecer. Entramos dentro  
+y marcamos la casilla "Habilitar". Una vez realizado esto entramos en el botón "mostrar" que aparece al lado de  
+Comunidades. Una vez dentro añadimos el grupo de Agentes al que tenemos que pertenecer, en mi caso "AGENTES". Aplicamos  
+y salimos. Justo debajo de esta directiva aparece otra llamada "Especificar administradores Permitidos" en la cual  
+debemos entrar también. Repetimos el procedimiento de la directiva anterior marcando la casilla "Habilitar" y añadiendo  
+en "Administradores Permitidos" la dirección IP de la máquina que contiene el servidor Pandora. Una vez realizado esto  
+aplicamos los cambios y estamos listos para que el Servidor nos pueda monitorizar.
