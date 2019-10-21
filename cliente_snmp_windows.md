@@ -13,8 +13,8 @@ gpedit.msc. Una vez dentro del editor nos dirigimos a plantillas administrativas
 todas las cxarpetas que nos aparecen entramos en "SNMP". Nos aparecen 3 posibilidades de configuración. La primera  
 de ellas, llamada "Especificar Comunidades" es aquella que sirve para determinar a qué grupo de Agentes vamos a  
 pertenecer. Entramos dentro y marcamos la casilla "Habilitar". Una vez realizado esto entramos en el botón "mostrar"  
-que aparece al lado de Comunidades. Una vez dentro añadimos el grupo de Agentes al que tenemos que pertenecer, en mi  
-caso "AGENTES". Aplicamos y salimos. Justo debajo de esta directiva aparece otra llamada "Especificar administradores  
+que aparece al lado de Comunidades. Una vez dentro añadimos el grupo de Agentes al que tenemos que pertenecer, en  
+mi caso "AGENTES". Aplicamos y salimos. Justo debajo de esta directiva aparece otra llamada "Especificar administradores  
 Permitidos" en la cual debemos entrar también. Repetimos el procedimiento de la directiva anterior marcando la casilla  
 "Habilitar" y añadiendo en "Administradores Permitidos" la dirección IP de la máquina que contiene el servidor Pandora.  
 Una vez realizado esto aplicamos los cambios y estamos listos para que el Servidor nos pueda monitorizar.
