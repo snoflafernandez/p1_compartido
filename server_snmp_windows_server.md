@@ -34,10 +34,16 @@ nos permitirá instalarnos el servidor SNMP.
 
 ### PROCEDIMIENTO PARA CENTRALIZAR LOS DIFERENTES AGENTES.
 
-Para monitorizar de forma remota un equipo o un servicio de un equipo, primero se deberá crear el agente  
-correspondiente para monitorizar el servicio. Nos iremos al panel lateral izquierdo de la sección de  
-administración de la consola de Pandora.  
-1. Pulsaremos sobre el apartado "resources > manage agents" para crear el agente que finalmente monitorizaremos. Rellenaremos los campos  
+Para monitorizar de forma remota un equipo a traves del protocolo SNMP v2 accederemos a la consola  
+de Pandora y seguiremos los siguientes pasos:  
+  
+1. Se debe crear un grupo donde añadiremos todos los agentes que vayamos a monotorizar. Para ello,  
+entramos en "profiles > manage agent group" y utilizamos la opción "create" para crear un grupo.  
+2. Pulsaremos sobre el apartado "resources > manage agents" para crear el agente que finalmente monitorizaremos  
+y rellenaremos los campos del agente(su ip, su alias, al grupo al que pertenece, etc).  
+3.   
+
+
 
 
 
