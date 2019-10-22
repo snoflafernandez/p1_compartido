@@ -1,10 +1,8 @@
-## SERVIDOR SNMP.  
+# SERVIDOR SNMP.  
 
-### OBJETIVO.  
+## OBJETIVO.  
 
-El objetivo de mi grupo era conseguir un servidor snmp  
-para monitorizar los OIDs planificados de cada agente.
-Visualizando gráficas, estadísticas, etc.  
+El objetivo de mi equipo era conseguir monitorizar los OIDs de cada agente visualizando gráficas, estadísticas, etc.  
 
 ### BUSCAMOS LAS MEJORES HERRAMIENTAS PARA EL PROYECTO.  
 
@@ -14,7 +12,7 @@ servidor Cacti, el servidor Nagios, pero nos decantamos por Pandora,
 ya que, Cacti esta mas enfocado en el apartado gráfico, Nagios en los diferentes estados  
 de los clientes y Pandora englobaba ambos aspectos.  
 
-### PROCEDIMIENTO QUE LLEVAMOS A CABO.  
+### CONSEGUIR LAS HERRAMIENTAS NECESARIAS.  
 
 Todo el proyecto se iba a basar en una red que nosotros habíamos montado, por tanto,  
 empezamos comprobando que esa red funcionaba. En especial protocolos como el DHCP, el  
@@ -25,14 +23,21 @@ Posteriormente a esto, teníamos una red convergente. Ya nos podíamos centrar e
 configuración de Pandora y sus componentes.
 
 En mi caso utilicé Windows Server como máquina virtual para instalar Pandora. ¿Cómo lo hice?  
-Sencillo, navegas hasta la página oficial: https://pandorafms.org/es/ y descargar el .exe adecuado  
-para tu equipo. Lo mas característico a la hora de instalar Pandora es cuando te da la opcion para  
-modificar la ip de tu servidor, en mi caso lo deje en "localhost" ya que no quería que me diera  
-ningun problema si cambiaba la ip de mi máquina haciendo cualquier prueba. Nada mas terminar la  
+Sencillo, navegas hasta la página oficial de [Pandora](https://pandorafms.org/es/) y descargas el  
+.exe adecuado  para tu equipo. Lo mas característico a la hora de instalar Pandora es cuando te da la  
+opcion para modificar la ip de tu servidor, en mi caso lo deje en "localhost" ya que no quería que me  
+diera ningun problema si cambiaba la ip de mi máquina haciendo cualquier prueba. Nada mas terminar la  
 instalación se nos abría Pandora en una terminal a través del navegador en modo gráfico. Pero  
 nuestro sistema no puede hacer un monitoreo de la red sino tenemos instalado el protocolo simple de  
 administración de red (SNMP) en nuestro sistema. Para ello, deberemos de agregar una herramienta de  
 rol, la cual, nos permitirá instalarnos el servidor SNMP.
+
+### PROCEDIMIENTO PARA CENTRALIZAR LOS DIFERENTES AGENTES.
+
+Para monitorizar de forma remota un equipo o un servicio de un equipo, primero se deberá crear el agente  
+correspondiente para monitorizar el servicio. Nos iremos al panel lateral izquierdo de la sección de  
+administración de la consola de Pandora.  
+1. Pulsaremos sobre el apartado "resources > manage agents" para crear el agente que finalmente monitorizaremos. Rellenaremos los campos  
 
 
 
