@@ -27,4 +27,12 @@ configuración de Pandora y sus componentes.
 En mi caso utilicé Windows Server como máquina virtual para instalar Pandora. ¿Cómo lo hice?  
 Sencillo, navegas hasta la página oficial: https://pandorafms.org/es/ y descargar el .exe adecuado  
 para tu equipo. Lo mas característico a la hora de instalar Pandora es cuando te da la opcion para  
-modificar la ip de tu servidor, en mi caso lo deje en "localhost" ya que no quería que me diese ningun problema si cambiaba la ip de mi máquina haciendo pruebas
+modificar la ip de tu servidor, en mi caso lo deje en "localhost" ya que no quería que me diera  
+ningun problema si cambiaba la ip de mi máquina haciendo cualquier prueba. Nada mas terminar la  
+instalación se nos abría Pandora en una terminal a través del navegador en modo gráfico. Pero  
+nuestro sistema no puede hacer un monitoreo de la red sino tenemos instalado el protocolo simple de  
+administración de red (SNMP) en nuestro sistema. Para ello, deberemos de agregar una herramienta de  
+rol, la cual, nos permitirá instalarnos el servidor SNMP.
+
+
+
