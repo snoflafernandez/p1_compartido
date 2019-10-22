@@ -13,6 +13,6 @@ el servidor "PANDORA". Teníamos más opciones como el conocido
 servidor Cacti, el servidor Nagios, pero nos decantamos por Pandora,  
 ya que, Cacti esta mas enfocado en el apartado gráfico, Nagios en los diferentes estados  
 de los clientes y Pandora englobaba ambos aspectos.  
-  
-###  
+
+
 
